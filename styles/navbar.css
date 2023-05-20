@@ -1,0 +1,85 @@
+.social a i {
+  padding: 0.8rem;
+  padding: 11px 15px;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+.social a i:hover {
+  color: #fff !important;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+
+}
+
+.social a i.fa-facebook:hover {
+  background: #0083C9 !important;
+}
+
+.social a i.fa-youtube:hover {
+  background: #FF4518 !important;
+
+}
+
+.social a i.fa-twitter:hover {
+  background: #5BBCEC !important;
+}
+
+.social a i.fa-whatsapp:hover {
+  background: #20c997 !important;
+}
+i{
+   color: rgba(53, 0, 0, 0.813) !important;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 100%;
+}
+
+.nav1 .social {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.nav1 .social1 {
+  display: flex;
+  justify-content: space-around;
+  width: 10% !important;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-moz-device-pixel-ratio: 2), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi),
+ only screen and (min-resolution: 2dppx) ,
+ only screen and (max-width:1000px){
+.nav1 {
+  display: block;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+.nav1 .social {
+  width: 100%;
+}
+
+.nav1 .social1 {
+  width: 88% !important;
+}
+.nav1 .social p{
+  font-size: 12px;
+  color: #c2c2c2;
+}
+.nav1 .social i{
+  font-size: 12px !important;
+  color: #c2c2c2;
+
+}
+
+}

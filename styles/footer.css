@@ -1,0 +1,123 @@
+.wrapper1{
+  background-color: #a88a8a0d;
+}
+
+.footer-section p{
+  color: rgb(56, 54, 54);
+text-align: center;
+
+}
+
+.footer-section .social-tag{
+   color: darkorange;
+
+}
+.socialmedia{
+  display: flex;
+  font-weight: bold;
+  border: 1px solid burlywood;
+  border-radius: 1px 3rem 1px 3rem;
+  padding: 1rem;
+  margin-left: 35%;
+  width: 20%;
+  align-items: center;
+  transition: ease-in-out;
+}
+.socialmedia:hover{
+  box-shadow: 1px 5px 5px #97979767;
+  cursor: pointer;
+  z-index: 999;
+}
+.socialmedia i{
+  color: rgb(72, 72, 72);
+  font-size: 20px;
+  transition: ease-in-out;
+}
+.socialmedia i:hover{
+  color: rgb(203, 6, 6);
+}
+.quick-nav p,.quick-nav li a{
+  color: rgb(86, 0, 0) !important;
+}
+.quick-nav li a:hover{
+  color: purple !important;
+  cursor: pointer !important;
+  text-decoration: underline !important;
+  }
+
+
+.footer-section{
+width: 100%;
+align-items: center;
+padding: 0;
+background-color: #f5f5f5;
+}
+.footer-wrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 99%;
+}
+.footer-wrapper .fw-1{
+width: 26%;
+padding: 1%;
+}
+.fw-2{
+  width: 40%;
+padding: 1%;
+
+}
+
+.fw-1 p, li a{
+  margin-left: 1pc;
+  text-align: left;
+
+}
+.footer-wrapper .contact{
+  width: 90%;
+}
+.footer-wrapper .about{
+  width: 90%;
+}
+.footer-wrapper .quick-nav{
+  width: 90%;
+}
+
+/**Media query styles small screen size**/
+@media only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-moz-device-pixel-ratio: 2), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi),
+ only screen and (min-resolution: 2dppx),
+ only screen and (max-width:1000px) {
+  
+.footer-section{
+width: 100%;
+align-items: center;
+padding: 0;
+background-color: #f5f5f5;
+}
+.footer-wrapper{
+  display: block;
+  justify-content: space-around;
+  width: 98%;
+  margin-left: 1%;
+}
+.footer-wrapper .fw-1,.fw-2{
+width: 98%;
+padding: 1%;
+}
+.fw-1 p, li a{
+  margin-left: 1pc;
+  text-align: left;
+
+}
+.footer-wrapper .contact{
+  width: 90%;
+}
+.footer-wrapper .about{
+  width: 90%;
+}
+.footer-wrapper .quick-nav{
+  width: 90%;
+}
+}
